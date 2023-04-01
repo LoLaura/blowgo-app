@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath:"/blowgo-app/",
   chainWebpack: (config) => {
     const svgRule = config.module.rule("svg");
 
